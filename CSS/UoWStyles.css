@@ -1,0 +1,479 @@
+body {
+  background: -webkit-linear-gradient(#2EB82E, #F0F0B2 40%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#2EB82E, #F0F0B2 40%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#2EB82E, #F0F0B2 40%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#2EB82E, #F0F0B2 40%);
+  max-width: 1080px;
+  text-align: center;
+  margin: auto;
+}
+
+.container {
+    width:100%;
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    width:100%;
+    height:10%;
+    text-align: center;
+}
+
+img#title {
+    padding-top:3em;
+    padding-bottom: .5em;
+    width:70%;
+}
+
+h3#motto {
+    box-sizing: border-box;
+    width:100%;
+    text-transform:uppercase;
+    margin: auto;
+}
+
+nav {
+    box-sizing: border-box;
+    width: 100%;
+    float:left;
+}
+
+nav ul {
+  width:100%;
+  list-style: none;
+  display:inline-block;
+}
+
+nav ul li {
+   width: 14.285%; 
+   float: left;
+}
+nav ul li a {
+   display: block;
+   width: 60%;
+  }
+  
+.navLi {
+    width:9.5em;
+    height:2.5em;      
+  }
+
+
+h1 {
+    box-sizing: border-box;
+    width: 100%;
+    text-transform:uppercase;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+
+footer {
+    height:40px;
+    width:100%;
+    background: -webkit-linear-gradient(to right, #990099, #F0F0B2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to right, #990099, #F0F0B2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to right, #990099, #F0F0B2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #990099, #F0F0B2);
+    text-align: center;
+}
+
+
+p#legal {
+   font-variant:small-caps;
+}
+
+
+.mobileAd {
+    display:none;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+/*home styles*/
+
+section#main {
+    margin-left:.75em;
+   }
+   
+   #homeUl {
+       font-size: .85em;
+   }   
+
+div#twitter {
+   margin-left:3vw;
+   margin-top:1em;
+}
+
+#twitter-widget-0 {
+    height:427px;
+}
+
+#FB {
+    margin-top: 1em;
+}
+
+.home {
+    box-sizing: border-box;
+    width:100%;
+    clear:both;
+}
+
+/*end home styles*/
+
+/*blog styles*/
+
+.blogDiv {
+    width:70%;
+}
+.blogFrame {
+    width: 100%;
+    height:600px;
+    padding-right:3em;
+    margin-left:1.5em;
+}
+
+/*end blog styles*/
+
+/*vlog styles*/
+#vlogIntro {
+    box-sizing: border-box;
+    width:95%;
+}
+
+.youtube-videogallery {
+    list-style: none;
+}
+
+.VlogAd2 {
+    float:right;
+}
+
+/*end vlog styles*/
+
+/*interview styles*/
+
+#interIntro {
+    box-sizing: border-box;
+    width:95%;
+}
+
+/*end interview styles*/
+
+/*events styles*/
+
+p#pEvent {
+    margin-left:10em;
+    margin-right:10em;
+}
+
+/*end events styles*/
+
+/*bio styles*/
+
+section.bioSect {
+    width:75%;
+    height:350px;
+    margin-left:7em;
+}
+
+img#tPic {
+    float: left;
+    max-height: 200px;
+    max-width: 200px;
+}    
+
+p#tBio {
+    float:right;
+}
+
+img#dPic {
+    clear:left;
+    float:left;
+    width:11em;
+    height:15em;
+    max-height:310px;
+    max-width:200px;
+}
+
+p#dBio {
+    float:right;
+}
+
+img#cPic{
+    clear:left;
+    float:left;
+    max-height:200px;
+    max-width:200px;
+}
+
+p#cBio {
+    float:right;
+}
+
+p.FavsW {
+    clear:left;
+    float:left;
+
+}
+
+p.FavsT {
+    clear:left;
+    float:left;
+}
+
+span.favName {
+    text-decoration:underline;
+    text-transform:uppercase;
+}
+
+img.fbLink {
+    width:3em;
+    height:1em;
+}
+
+img.twLink {
+    width:3em;
+    height:1em;
+}
+
+img.ytLink {
+    width:3em;
+    height:1em;
+}
+/*end bio styles*/
+
+/*contact styles*/
+
+img.fbLink {
+    width:3em;
+    height:1em;
+}
+
+img.twLink {
+    width:3em;
+    height:1em;
+}
+
+img.ytLink {
+    width:3em;
+    height:1em;
+}
+
+.contBody {
+    margin:auto;
+    width:50%;
+}
+
+.contName {
+    font-weight: bold;
+}
+
+#tommyContact {
+    margin-bottom: 2.5em;
+}
+/*end contact styles*/
+
+/* Media Queries*/
+
+@media screen and (max-width:1000px) {
+    
+    /*all page styles*/
+    body {
+        max-width:100%;
+        font-size:1.25em;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .container {
+        max-width:100%;
+        text-align: center;
+    }
+    
+    .wrapper {
+        width:100%;
+        text-align: center;
+    }
+
+    nav ul {
+        width: 90%; 
+        list-style: none;
+
+    }
+
+    nav ul li {
+        width: 10%; 
+        float: left;
+        padding-right:.75em
+   }
+   
+   .navLi{
+       width:6.5em;
+   }
+    nav ul li a {
+      display: block;
+      width: 60%;
+      text-align: center;
+   }
+
+    #bigPic {
+        margin-left:-1.25em;
+    }
+
+    .fullAd {
+        display:none;
+    }
+
+    .mobileAd {
+        display:normal;
+    }
+
+    /*Home Styles*/
+
+    #hello {
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    #main {
+        width:97%;
+    }
+
+       
+    div#twitter {
+        display:none;
+    }
+
+    div#FB {
+        display:none;
+    }
+
+    /*Blog Styles*/
+
+    p.blog {
+        width:95%;
+    }
+
+    .blogDiv {
+        width:95%;
+    }
+    .blogFrame {
+        width:90%;
+    }
+
+    /* Vlog Styles*/
+   
+    .youtube-videogallery {
+        width:95%;
+    }
+
+    /*interview Styles*/
+    
+    #interIntro {
+        margin-left:1em;
+    }
+    
+    .interGallery {
+        margin-left:0.25em;
+    }
+
+    /*Events Styles*/
+
+    h1#eventTitle {
+        margin-left:8em;
+    }
+
+     p#pEvent {
+         margin-left:2em;
+         width:72%;
+     }
+
+     #calendar {
+        width:60%;
+        margin-left:.5em;
+        margin-right:auto;
+     }
+
+     /*Bio Styles*/
+
+    section.bioSect {
+        box-sizing: border-box;
+        width:95%;
+        text-align: center;
+        clear:both;
+        margin:auto;
+        margin-bottom: 1.5em;
+    }
+    
+    .bioPic {
+        box-sizing: border-box;
+        width:97%;
+        text-align: center;
+        clear:both;
+    }
+
+    #tPic {
+        margin:0 2em .5em 2.75em;
+        max-height: 200px;
+        max-width: 200px;
+    }    
+
+    #tBio {
+        clear:both;
+    }
+
+    #dPic {
+        clear:both;
+        width:11em;
+        height:15em;
+        margin:0 2em .5em 2.75em;
+        max-height:310px;
+        max-width:200px;
+    }
+
+    p#dBio {
+        clear:both;
+    }
+
+    #cPic{
+        clear:left;
+        margin:0 2em .5em 2.75em;
+        max-height:200px;
+        max-width:200px;
+    }
+
+    #cBio {
+        clear:both;
+    }
+
+    p.FavsW {
+        clear:both;
+        float:left;
+        margin-bottom: .25em;
+    }
+
+    p.FavsT {
+        clear:both;
+        float:left;
+        margin-top: .5em;
+        margin-bottom: 3em;
+    }
+    
+    /* contacts */
+    
+    .contBody {
+        width:97%;
+        margin:auto;
+    }
+
+}
+
+@media screen and (max-width:5200px) {
+    footer {
+        height:3.5em;
+    }
+}
