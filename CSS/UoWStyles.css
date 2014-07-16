@@ -97,14 +97,15 @@ p#legal {
 
 section#main {
     margin-left:.75em;
+    width:50%;
    }
    
-   #homeUl {
+#homeUl {
        font-size: .85em;
    }   
 
 div#twitter {
-   margin-left:3vw;
+   margin-left:1.5em;
    margin-top:1em;
 }
 
@@ -339,8 +340,10 @@ img.ytLink {
         margin-right:auto;
     }
     
-    #main {
+    section#main {
         width:97%;
+        text-align: center;
+        
     }
 
        
